@@ -32,6 +32,7 @@
 
  annex.occupation: "Maintain the occupation for now."
  annex.integration: "Assimilate into our territory."
+ annex.sudeten: "Annex German-Bohemia and liberate the rest."
 
  annex.europe.give_to_gex: "[GEX.GetGrantTerritoryEventOption]"
 

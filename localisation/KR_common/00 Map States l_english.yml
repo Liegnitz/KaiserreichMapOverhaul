@@ -399,7 +399,7 @@
 
  STATE_90: "Kielce"
  STATE_90_ENDONYM: "[90.Controller.GetStateName_90]"
- STATE_90_GERMAN: "Kjelzy"
+ STATE_90_GERMAN: "Kielce"
  STATE_90_RUSSIAN: "Keltsy"
 
  STATE_91: "Lwow"
