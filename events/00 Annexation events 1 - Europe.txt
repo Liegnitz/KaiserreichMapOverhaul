@@ -4626,20 +4626,29 @@ country_event = { #Fate of Bohemia
 			is_germany_or_splinter_tag = yes
 		}
 		ai_chance = {
-			base = 70
+			base = 100
 			modifier = {
-				factor = 0.15
-				has_elected_government = yes
+				factor = 1000
+				OR = {
+					has_country_flag = GER_enabling_act
+					has_completed_focus = GER_conservative_revolution
+				}
+			}
+			modifier = {
+				factor = 0
+				has_completed_focus = GER_victory_of_democracy
 			}
 		}
-		add_state_claim = 9 #Prague
-		add_state_claim = 69 #Liberec
-		add_state_claim = 74 #Czech Silesia
-		add_state_claim = 75 #Moravia
-		add_state_claim = 786 #Budejovice
-		add_state_claim = 924 #Teschen
+		add_state_claim = 786 #South Bohemia 
+		add_state_claim = 69 #North Bohemia
+		add_state_claim = 74 #Sudetenland
+		add_state_core = 786 
+		add_state_core = 69 
+		add_state_core = 74 
+		set_temp_variable = { tag_to_release = CZE }
+        release_targeted_tag = yes
+        recheck_annexations = yes
 		occupy_medium_country = yes
-		recheck_annexations = yes
 	}
 
 	option = { #occupation
