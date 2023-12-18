@@ -12624,9 +12624,9 @@ defined_text = {
 	}
 }
 defined_text = {
-	name = GetVictoryPointName_11360
+	name = GetVictoryPointName_241
 	text = {
-		localization_key = VICTORY_POINTS_11360
+		localization_key = VICTORY_POINTS_241
 	}
 }
 defined_text = {
