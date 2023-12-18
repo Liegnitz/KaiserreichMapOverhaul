@@ -1,4 +1,4 @@
-name="Kaiserreich Overhaul"
+name="Kaiserreich Map Overhaul"
 replace_path="common/characters"
 replace_path="common/countries"
 replace_path="common/country_leader"
@@ -34,4 +34,4 @@ dependencies={
 }
 version="0.1"
 supported_version="1.13.*"
-path="C:/Users/Stefan/Documents/Paradox Interactive/Hearts of Iron IV/mod/KaiserreichO"
+path="C:/Users/Stefan/Documents/Paradox Interactive/Hearts of Iron IV/mod/KaiserreichMapOverhaul"
