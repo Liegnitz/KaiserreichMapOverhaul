@@ -4643,6 +4643,38 @@ country_event = { #Fate of Bohemia
 		}
 		recheck_annexations = yes
 	}
+	
+	option = { #Sudeten
+		log = "[GetLogInfo]: event annex.1021 option annex.sudeten"
+		name = annex.sudeten
+		trigger = {
+			is_germany_or_splinter_tag = yes
+		}
+		ai_chance = {
+			base = 10
+			modifier = {
+				factor = 10
+				OR = {
+					has_country_flag = GER_enabling_act
+					has_completed_focus = GER_conservative_revolution
+				}
+			}
+			modifier = {
+				factor = 100
+				has_completed_focus = GER_victory_of_democracy
+			}
+		}
+		add_state_claim = 786 #South Bohemia 
+		add_state_claim = 69 #North Bohemia
+		add_state_claim = 74 #Sudetenland
+		69 = { remove_claim_and_add_core_of_ROOT = yes }
+		74 = { remove_claim_and_add_core_of_ROOT = yes }
+		786 = { remove_claim_and_add_core_of_ROOT = yes }
+		set_temp_variable = { tag_to_release = CZE }
+        release_targeted_tag = yes
+        recheck_annexations = yes
+		occupy_small_country = yes
+	}
 
 	option = { #Assimilate
 		log = "[GetLogInfo]: event annex.1021 option annex.integration"

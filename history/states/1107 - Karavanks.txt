@@ -10,10 +10,6 @@ state = {
 		add_core_of = SLV
 		add_core_of = CRO
 
-		add_to_array = { state_victory_points = 665 }
-
-		victory_points = { 665 1 } #Maribor
-
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
