@@ -14,8 +14,6 @@ state = {
 		add_core_of = AUS
 		add_to_array = { state_victory_points = 13575 }
 		victory_points = { 13575 15 }
-		add_to_array = { state_victory_points = 9646 }
-		victory_points = { 9646 1 } #Maribor
 
 		buildings = {
 			infrastructure = 3

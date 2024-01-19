@@ -32,7 +32,6 @@
 
  annex.occupation: "Maintain the occupation for now."
  annex.integration: "Assimilate into our territory."
- annex.sudeten: "Annex German-Bohemia and liberate the rest."
 
  annex.europe.give_to_gex: "[GEX.GetGrantTerritoryEventOption]"
 
@@ -212,8 +211,8 @@
 
  annexation_LUX_CONQ: "The Fate of Luxembourg"
  annexation_LUX_CONQ_desc: "The Grand Duchy of Luxembourg was once an independent state. During the Weltkrieg, the German army occupied the Grand Duchy which was later incorporated into the German Empire. Now, with our dominance in Europe secured, it is in our power to decide what shall happen with the polity."
- annex.1002.a: "[france.GetGrantTerritoryEventOption]"
- annex.1002.b: "[belgium.GetGrantTerritoryEventOption]"
+ annex.1002.a: "[belgium.GetGrantTerritoryEventOption]"
+ annex.1002.b: "[france.GetGrantTerritoryEventOption]"
  annex.1002.c: "[germany.GetGrantTerritoryEventOption]"
 
  annexation_RHI_CONQ: "The Fate of the Rhineland"
@@ -492,20 +491,10 @@
  annex.1042.a: "Liberate Brittany"
  annex.1042.b: "Give it to [30.owner.GetNameDef]"
 
- annexation_PASDECALAIS_CONQ: "The Fate of Northern France"
- annexation_PASDECALAIS_CONQ_desc: "The northern areas of France have been brought under our control as our troops occupy the region. We must now decide what to do with them."
- annex.1043.a: "Give it to [france.GetNameDef]"
- annex.1043.b: "Give it to [belgium.GetNameDef]"
- annex.1043.c: "Give it to [wallonia.GetNameDef]"
- annex.1043.d: "Give it to [flanders.GetNameDef]"
- annex.1043.e: "Split it between [flanders.GetNameDef] and [wallonia.GetNameDef]"
- annex.1043.f: "Split it between [france.GetNameDef] and [belgium.GetNameDef]"
- annex.1043.g: "Split it between [france.GetNameDef] and [wallonia.GetNameDef]"
- annex.1043.h: "Split it between [france.GetNameDef] and [flanders.GetNameDef]"
- annex.1043.i: "Split it between [france.GetNameDef], [wallonia.GetNameDef] and [flanders.GetNameDef]"
- annex.1043.j: "Split it with [flanders.GetNameDef]"
- annex.1043.k: "Split it with [france.GetNameDef]"
- annex.1043.l: "Split it with [wallonia.GetNameDef]"
+ annexation_PASDECALAIS_CONQ: "The Fate of [17.GetName]"
+ annexation_PASDECALAIS_CONQ_desc: "The [17.GetName] has been brought under our control as our troops occupy the region. We must now decide what to do with it."
+ annex.1043.a: "[france.GetGrantTerritoryEventOption]"
+ annex.1043.b: "[belgium.GetGrantTerritoryEventOption]"
 
  annexation_ENG_CONQ: "[annexation_ENG_CONQ_title]"
  annexation_ENG_CONQ_desc: "[annexation_ENG_CONQ_description]"
@@ -911,10 +900,8 @@
 
  annexation_DANUBIAN_PLAIN_CONQ: "The Fate of the Danubian Plain"
  annexation_DANUBIAN_PLAIN_CONQ_desc: "Formerly part of the Kingdom of Hungary, the Danubian Plain is home to Slovaks, Germans and Hungarians alike. Now, we must decide what to do with it."
- annex.1106.a: "Give it to [HUN.GetNameDef]"
- annex.1106.b: "Give it to [SLO.GetNameDef]"
- annex.1106.c: "Give it to [CZE.GetNameDef]"
- annex.1106.d: "Give it to [AUS.GetNameDef]"
+ annex.1106.a: "[slovakia.GetGrantTerritoryEventOption]"
+ annex.1106.b: "[hungary.GetGrantTerritoryEventOption]"
 
  annexation_VOLKOVYSK_CONQ: "The Fate of [94.GetName]"
  annexation_VOLKOVYSK_CONQ_desc: "The region around [94.GetName] is now under our control, we must decide what to do with it."
@@ -943,6 +930,7 @@
  annexation_PRESSBURG_CONQ_desc: "Formerly part of the Kingdom of Hungary, the city of [1090.GetName] is home to Slovaks, Germans and Hungarians alike. Now, we must decide what to do with it."
  annex.1111.a: "[slovakia.GetGrantTerritoryEventOption]"
  annex.1111.b: "[austria.GetGrantTerritoryEventOption]"
+ annex.1111.c: "[hungary.GetGrantTerritoryEventOption]"
 
  annexation_ROUSSILLON_CONQ: "The Fate of [817.GetName]"
  annexation_ROUSSILLON_CONQ_desc: "The region of [817.GetName] is now under our control, we must decide what to do with it."
@@ -1037,6 +1025,21 @@
  annex.1127.d: "Split it between [greece.GetNameDef] and [bulgaria.GetNameDef]"
  annex.1127.e: "Split it between [greece.GetNameDef] and [turkey.GetNameDef]"
  annex.1127.f: "Split it between [greece.GetNameDef], [bulgaria.GetNameDef] and [turkey.GetNameDef]"
+
+ annexation_MURA_CONQ: "The Fate of [942.GetName]"
+ annexation_MURA_CONQ_desc: "We have taken control of the small border region of [942.GetName] and must now decide what to do with it."
+ annex.1128.a: "[slovenia.GetGrantTerritoryEventOption]"
+ annex.1128.b: "[hungary.GetGrantTerritoryEventOption]"
+
+ annexation_LILLE_CONQ: "The Fate of [980.GetName]"
+ annexation_LILLE_CONQ_desc: "We have taken control of the [980.GetName] metropolitan area and must now decide what to do with it."
+ annex.1129.a: "[france.GetGrantTerritoryEventOption]"
+ annex.1129.b: "[belgium.GetGrantTerritoryEventOption]"
+
+ annexation_DUNKIRK_CONQ: "The Fate of [29.GetName]"
+ annexation_DUNKIRK_CONQ_desc: "We have taken control of the small port city of [29.GetName] and must now decide what to do with it."
+ annex.1130.a: "[france.GetGrantTerritoryEventOption]"
+ annex.1130.b: "[belgium.GetGrantTerritoryEventOption]"
 
  annexation_USA_CONQ: "The Fate of America"
  annexation_USA_CONQ_desc: "Now that the war is over, we must decide what to do with our occupied land in America."
