@@ -1,5 +1,0 @@
-FIN_black_monday_decisions = {
-	allowed = {
-		original_tag = FIN
-	}
-}
